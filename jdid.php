@@ -1,4 +1,9 @@
 <?php
+/*
+  SPAMMER SMS JD.ID
+  Code By ZeroSvn@babbycyberteam.org
+*/
+@ini_set('output_buffering',0);
 function jdidbom($no, $jum, $wait){
     $x = 0; 
     while($x < $jum) {
@@ -21,14 +26,15 @@ function jdidbom($no, $jum, $wait){
     }
 }
 echo "
-############################################################
-       [ Spammer SMS From JD.ID ]
-    Coded By    : ZeroSvn
-    Contact Me  : babbycyberteam@gmail.com
-    Date        : 12/12/2017
-    Thanks to   : BabbyCyberTeam & SGB-TEAM
-    Usage       : php jdid.php
-############################################################\nInput : ";
+################################################
+#                                              #
+#   ..::[ Spammer SMS From JD.ID ]::..         #
+#   Coded By    : ZeroSvn                      #
+#   Contact Me  : babbycyberteam@gmail.com     #
+#   Date        : 19/12/2017                   #
+#   Thanks to   : BabbyCyberTeam & SGB-TEAM    #
+#                                              #
+################################################\n\n";
 echo "Nomor? (ex : 8xxxx)\nInput : ";
 $nomor = trim(fgets(STDIN));
 echo "Jumlah?\nInput : ";
