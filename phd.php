@@ -1,4 +1,10 @@
 <?php
+/* 
+SPAMMER SMS PHD
+Modified By: ZeroSvn@babbycyberteam.org
+Date: 19-12-2017
+*/
+@ini_set('output_buffering',0);
 function phd($no, $jum, $wait){
     $x = 0; 
     while($x < $jum) {
@@ -21,14 +27,15 @@ function phd($no, $jum, $wait){
     }
 }
 echo "
-############################################################
-       [ Spammer SMS From PHD ]
-    Coded By    : ZeroSvn
-    Contact Me  : babbycyberteam@gmail.com
-    Date        : 12/12/2017
-    Thanks to   : BabbyCyberTeam & SGB-TEAM
-    Usage       : php phd.php
-############################################################\nInput : ";
+##################################################
+#                                                #
+#    ..::[ Spammer SMS From PHD ]::..            #
+#    Coded By    : ZeroSvn                       #
+#    Contact Me  : babbycyberteam@gmail.com      #
+#    Date        : 19/12/2017                    #
+#    Thanks to   : BabbyCyberTeam & SGB-TEAM     #
+#                                                #
+##################################################\n\n";
 echo "Nomor? (ex : 628xxxx)\nInput : ";
 $nomor = trim(fgets(STDIN));
 echo "Jumlah?\nInput : ";
